@@ -1,0 +1,17 @@
+# Database 
+1. Signin/up to https://www.mongodb.com/cloud/atlas/register 
+2. Create a cluster 
+3. Click on connect, go to drivers section and copy the connection string
+4. Paste the copied connection string within app.js file and do edit the password
+
+# Backend 
+1. Open the project in Visual Studio Code.
+2. Go to toolbar --> terminal --> Open new terminal.
+3. Run "npm install" for node modules
+4. Now to run the project --> Run "npm start" on terminal.
+
+# Frontend
+1. Open URL "https://localhost:5000" on a browser.
+2. Login teacher
+	Teacher Id: fc2023
+	Password: pswd

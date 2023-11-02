@@ -1,0 +1,32 @@
+<a href="/" class="btn btn-info" style="margin-top:5px;">Logout</a>
+<h4>My Result</h4>
+<div class="stuTable">
+  <table class="table table-striped">
+    <tbody>
+      <tr>
+        <th scope="col">Roll no.</th>
+        <td>
+          <%= one.roll %>
+        </td>
+      </tr>
+      <tr>
+        <th scope="col">Name</th>
+        <td>
+          <%= one.name %>
+        </td>
+      </tr>
+      <tr>
+        <th scope="col">Date of birth</th>
+        <td>
+          <%= formatDate(one.dob) %>
+        </td>
+      </tr>
+      <tr>
+        <th scope="col">Score</th>
+        <td>
+          <%= one.score %>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
