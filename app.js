@@ -6,7 +6,7 @@ const port = 5000;
 const mongoose = require('mongoose'); //to connect to mongodb
 
 //connect to mongodb and listen to requests
-mongoose.connect("mongodb+srv://gauravgupta:GauravGupta@cluster0.eg6n8du.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://gauravgupta:<password>@cluster0.eg6n8du.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
